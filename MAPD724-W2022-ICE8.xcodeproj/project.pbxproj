@@ -13,6 +13,9 @@
 		A3C07CA927EE56B7005E04C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3C07CA727EE56B7005E04C3 /* Main.storyboard */; };
 		A3C07CAB27EE56BD005E04C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3C07CAA27EE56BD005E04C3 /* Assets.xcassets */; };
 		A3C07CAE27EE56BD005E04C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3C07CAC27EE56BD005E04C3 /* LaunchScreen.storyboard */; };
+		A3C07CB627EF66F3005E04C3 /* MobileNetV2.mlkitmodel in Sources */ = {isa = PBXBuildFile; fileRef = A3C07CB527EF66F3005E04C3 /* MobileNetV2.mlkitmodel */; };
+		A3C07CB827EF6717005E04C3 /* car.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A3C07CB727EF6717005E04C3 /* car.jpeg */; };
+		A3C07CBA27EF68C3005E04C3 /* car.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A3C07CB927EF68C3005E04C3 /* car.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		A3C07CAA27EE56BD005E04C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3C07CAD27EE56BD005E04C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A3C07CAF27EE56BD005E04C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3C07CB527EF66F3005E04C3 /* MobileNetV2.mlkitmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = MobileNetV2.mlkitmodel; path = ../../../Downloads/MobileNetV2.mlkitmodel; sourceTree = "<group>"; };
+		A3C07CB727EF6717005E04C3 /* car.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = car.jpeg; path = ../../../Downloads/car.jpeg; sourceTree = "<group>"; };
+		A3C07CB927EF68C3005E04C3 /* car.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = car.jpg; path = ../../../Downloads/car.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +64,10 @@
 			children = (
 				A3C07CA127EE56B7005E04C3 /* AppDelegate.swift */,
 				A3C07CA327EE56B7005E04C3 /* SceneDelegate.swift */,
+				A3C07CB527EF66F3005E04C3 /* MobileNetV2.mlkitmodel */,
 				A3C07CA527EE56B7005E04C3 /* ViewController.swift */,
+				A3C07CB927EF68C3005E04C3 /* car.jpg */,
+				A3C07CB727EF6717005E04C3 /* car.jpeg */,
 				A3C07CA727EE56B7005E04C3 /* Main.storyboard */,
 				A3C07CAA27EE56BD005E04C3 /* Assets.xcassets */,
 				A3C07CAC27EE56BD005E04C3 /* LaunchScreen.storyboard */,
@@ -127,6 +136,8 @@
 			files = (
 				A3C07CAE27EE56BD005E04C3 /* LaunchScreen.storyboard in Resources */,
 				A3C07CAB27EE56BD005E04C3 /* Assets.xcassets in Resources */,
+				A3C07CBA27EF68C3005E04C3 /* car.jpg in Resources */,
+				A3C07CB827EF6717005E04C3 /* car.jpeg in Resources */,
 				A3C07CA927EE56B7005E04C3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3C07CA627EE56B7005E04C3 /* ViewController.swift in Sources */,
+				A3C07CB627EF66F3005E04C3 /* MobileNetV2.mlkitmodel in Sources */,
 				A3C07CA227EE56B7005E04C3 /* AppDelegate.swift in Sources */,
 				A3C07CA427EE56B7005E04C3 /* SceneDelegate.swift in Sources */,
 			);
